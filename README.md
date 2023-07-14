@@ -1,0 +1,16 @@
+# InstagramWhoUnfollowed
+LAST VERSION HAVENT BEEN TESTED
+IF DOESNT WORK, -> REMOVE GLOBALS, DELETE LINE 9 (def loadInsta():) REARRANGE CODE IN THE FUNCTION
+
+TO USE:
+LOGIN YOUR ACCOUNT IN L.login()
+
+ENTER YOUR ACC TO profile = instaloader.Profile.from_username(L.context,'targetacc')
+
+CALL addToLists() AND compareLists() TO GET AN OUTPUT OF PEOPLE WHO DOESNT FOLLOW YOU BACK
+
+createFollowersLog() AND createFolloweesLog() ARE SELF EXPLANATORY
+
+TO COMPARE LOGS USE compareLogs()
+
+YOU NEED TO ENTER THE PATHS OF THE LOGS YOU WANT TO COMPARE
